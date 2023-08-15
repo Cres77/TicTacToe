@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Reenie+Beanie&family=Ubuntu&display=swap');
+        </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="title">Tic-Tac-Toe</h1>
+        <div class="scoreboard">
+            <div class="score">0-0</div>
+            <div class="winner"></div>
+        </div>
+    </div>
+    
+    <div class="player1">
+        <div class="name">
+            <input id="p1NameBox" type="text"  placeholder="Player1" maxlength="12" autocomplete="off">
+        </div>
+        <img src="https://media.istockphoto.com/id/535866383/photo/businessman-icon-with-question-mark-on-his-head.jpg?s=612x612&w=0&k=20&c=biIgn5jiPOngJSDCQStuYH_S3f6TVVLbvUCcRvFCVV0=" alt="" class="playerPhoto ">
+        <div class="p1ImgChooser">
+            <button><img class="img1Options 1" src="https://preview.redd.it/8gesajekh2e91.jpg?auto=webp&s=1d18c5d2c61c19149c062a802744c3d429761fdb" alt=""></button>
+            <button><img class="img1Options 2" src="https://wallpapers.com/images/hd/berserk-guts-wl5bxkyitqbywowx.jpg" alt=""></button>
+            <button><img class="img1Options 3" src="https://i.pinimg.com/1200x/fd/d4/11/fdd41130a04c826fa70fd610f246ae3e.jpg" alt=""></button>
+            <button><img class="img1Options 4" src="https://i.pinimg.com/236x/8e/3b/50/8e3b504fed45c0ad16a3ed44c9763db7.jpg" alt=""></button>
+        </div>
+
+        <div class="player1Choice">
+            <button class="B1 currentChoiceBut">X</button>
+            <button class="B2 notCurrentChoiceBut">O</button>
+        </div>
+        
+    </div>
+
+
+    <div class="gameArea">
+        <div class="gameboard"> <!---->
+
+        </div>
+        <div class="play">
+            <button class="playButton">Play</button>
+        </div>
+
+    </div>
+
+
+    <div class="player2">
+        <div class="name">
+            <input id="p2NameBox" type="text" placeholder="Player2" maxlength="12" autocomplete="off">
+        </div>
+        <img src="https://media.istockphoto.com/id/535866383/photo/businessman-icon-with-question-mark-on-his-head.jpg?s=612x612&w=0&k=20&c=biIgn5jiPOngJSDCQStuYH_S3f6TVVLbvUCcRvFCVV0=" alt="" class="playerPhoto">
+        <div class="p2ImgChooser">
+            <button><img class="img2Options 1" src="https://openseauserdata.com/files/e90f0af433d538f57ed222b05db86683.png" alt=""></button>
+            <button><img class="img2Options 2" src="https://i.seadn.io/gae/YxaHHZrdecgkzVhzE8uXKzpMoQv7HJluSjhYlpqvvaRrvTaF84n3G0b6JjKlGG4RWLTcGx-6bQG9tkZqWJ3YT42EBB6yVuCIZaJN?auto=format&dpr=1&w=1400&fr=1" alt=""></button>
+            <button><img class="img2Options 3" src="https://openseauserdata.com/files/24d2f9ddb85ebfc778543faa37bc2145.png" alt=""></button>
+            <button><img class="img2Options 4" src="https://i.redd.it/5js424v7ac881.jpg" alt=""></button>
+        </div>
+        
+        <div class="player2Choice permaChoice">O</div>
+    </div>
+
+</body>
+</html>
